@@ -9,10 +9,17 @@
 /* Begin PBXBuildFile section */
 		BCC786671E695344006B6B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786661E695344006B6B04 /* main.m */; };
 		BCC7866A1E695344006B6B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786691E695344006B6B04 /* AppDelegate.m */; };
-		BCC7866D1E695344006B6B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC7866C1E695344006B6B04 /* ViewController.m */; };
 		BCC786701E695344006B6B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7866E1E695344006B6B04 /* Main.storyboard */; };
 		BCC786721E695344006B6B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC786711E695344006B6B04 /* Assets.xcassets */; };
 		BCC786751E695344006B6B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC786731E695344006B6B04 /* LaunchScreen.storyboard */; };
+		BCC9A3D71E70EF5700A2A81B /* BaseFullContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3D61E70EF5700A2A81B /* BaseFullContentViewController.m */; };
+		BCC9A3DA1E70F4F800A2A81B /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3D91E70F4F800A2A81B /* MainListViewController.m */; };
+		BCC9A3DD1E7137EF00A2A81B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */; };
+		BCC9A3E11E714D9800A2A81B /* CustomNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */; };
+		BCC9A3E71E71667C00A2A81B /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3E61E71667C00A2A81B /* HexColors.m */; };
+		BCC9A3EA1E71695A00A2A81B /* huakangshaonv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */; };
+		BCD89C591E701AC100B2AD9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD89C581E701AC100B2AD9B /* BaseViewController.m */; };
+		BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD89C5B1E701AE200B2AD9B /* BaseContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +27,26 @@
 		BCC786661E695344006B6B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCC786681E695344006B6B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCC786691E695344006B6B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BCC7866B1E695344006B6B04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BCC7866C1E695344006B6B04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BCC7866F1E695344006B6B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCC786711E695344006B6B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCC786741E695344006B6B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCC786761E695344006B6B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC9A3D51E70EF5700A2A81B /* BaseFullContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFullContentViewController.h; sourceTree = "<group>"; };
+		BCC9A3D61E70EF5700A2A81B /* BaseFullContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseFullContentViewController.m; sourceTree = "<group>"; };
+		BCC9A3D81E70F4F800A2A81B /* MainListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListViewController.h; sourceTree = "<group>"; };
+		BCC9A3D91E70F4F800A2A81B /* MainListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListViewController.m; sourceTree = "<group>"; };
+		BCC9A3DB1E7137EF00A2A81B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		BCC9A3DF1E714D9800A2A81B /* CustomNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNormalViewController.h; sourceTree = "<group>"; };
+		BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNormalViewController.m; sourceTree = "<group>"; };
+		BCC9A3E51E71667C00A2A81B /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		BCC9A3E61E71667C00A2A81B /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		BCC9A3E81E7166C100A2A81B /* LiveAnimationPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAnimationPrefixHeader.pch; sourceTree = "<group>"; };
+		BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = huakangshaonv.ttf; sourceTree = "<group>"; };
+		BCD89C571E701AC100B2AD9B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BCD89C581E701AC100B2AD9B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BCD89C5A1E701AE200B2AD9B /* BaseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseContentViewController.h; sourceTree = "<group>"; };
+		BCD89C5B1E701AE200B2AD9B /* BaseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +81,11 @@
 			children = (
 				BCC786681E695344006B6B04 /* AppDelegate.h */,
 				BCC786691E695344006B6B04 /* AppDelegate.m */,
-				BCC7866B1E695344006B6B04 /* ViewController.h */,
-				BCC7866C1E695344006B6B04 /* ViewController.m */,
-				BCC7866E1E695344006B6B04 /* Main.storyboard */,
-				BCC786711E695344006B6B04 /* Assets.xcassets */,
-				BCC786731E695344006B6B04 /* LaunchScreen.storyboard */,
-				BCC786761E695344006B6B04 /* Info.plist */,
+				BCD89C531E70176E00B2AD9B /* MainController */,
+				BCC9A3DE1E714CB500A2A81B /* CustomBaseClass */,
+				BCD89C511E70176E00B2AD9B /* BaseClass */,
+				BCD89C521E70176E00B2AD9B /* Controllers */,
+				BCC9A3E21E7165EF00A2A81B /* UI-Component */,
 				BCC786651E695344006B6B04 /* Supporting Files */,
 			);
 			path = LiveRoomGiftAnimations;
@@ -74,9 +94,72 @@
 		BCC786651E695344006B6B04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BCC7866E1E695344006B6B04 /* Main.storyboard */,
+				BCC786711E695344006B6B04 /* Assets.xcassets */,
+				BCC786731E695344006B6B04 /* LaunchScreen.storyboard */,
+				BCC786761E695344006B6B04 /* Info.plist */,
 				BCC786661E695344006B6B04 /* main.m */,
+				BCC9A3E81E7166C100A2A81B /* LiveAnimationPrefixHeader.pch */,
+				BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC9A3DE1E714CB500A2A81B /* CustomBaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9A3DF1E714D9800A2A81B /* CustomNormalViewController.h */,
+				BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */,
+			);
+			path = CustomBaseClass;
+			sourceTree = "<group>";
+		};
+		BCC9A3E21E7165EF00A2A81B /* UI-Component */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9A3E41E71666100A2A81B /* HexColor */,
+			);
+			path = "UI-Component";
+			sourceTree = "<group>";
+		};
+		BCC9A3E41E71666100A2A81B /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9A3E51E71667C00A2A81B /* HexColors.h */,
+				BCC9A3E61E71667C00A2A81B /* HexColors.m */,
+			);
+			name = HexColor;
+			sourceTree = "<group>";
+		};
+		BCD89C511E70176E00B2AD9B /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				BCD89C571E701AC100B2AD9B /* BaseViewController.h */,
+				BCD89C581E701AC100B2AD9B /* BaseViewController.m */,
+				BCD89C5A1E701AE200B2AD9B /* BaseContentViewController.h */,
+				BCD89C5B1E701AE200B2AD9B /* BaseContentViewController.m */,
+				BCC9A3D51E70EF5700A2A81B /* BaseFullContentViewController.h */,
+				BCC9A3D61E70EF5700A2A81B /* BaseFullContentViewController.m */,
+				BCC9A3DB1E7137EF00A2A81B /* BaseNavigationController.h */,
+				BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		BCD89C521E70176E00B2AD9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BCD89C531E70176E00B2AD9B /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9A3D81E70F4F800A2A81B /* MainListViewController.h */,
+				BCC9A3D91E70F4F800A2A81B /* MainListViewController.m */,
+			);
+			path = MainController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +193,7 @@
 				TargetAttributes = {
 					BCC786611E695344006B6B04 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LH66V26Z7L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +224,7 @@
 				BCC786751E695344006B6B04 /* LaunchScreen.storyboard in Resources */,
 				BCC786721E695344006B6B04 /* Assets.xcassets in Resources */,
 				BCC786701E695344006B6B04 /* Main.storyboard in Resources */,
+				BCC9A3EA1E71695A00A2A81B /* huakangshaonv.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +235,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC7866D1E695344006B6B04 /* ViewController.m in Sources */,
+				BCC9A3D71E70EF5700A2A81B /* BaseFullContentViewController.m in Sources */,
+				BCC9A3DD1E7137EF00A2A81B /* BaseNavigationController.m in Sources */,
+				BCC9A3E11E714D9800A2A81B /* CustomNormalViewController.m in Sources */,
+				BCC9A3E71E71667C00A2A81B /* HexColors.m in Sources */,
+				BCC9A3DA1E70F4F800A2A81B /* MainListViewController.m in Sources */,
 				BCC7866A1E695344006B6B04 /* AppDelegate.m in Sources */,
+				BCD89C591E701AC100B2AD9B /* BaseViewController.m in Sources */,
 				BCC786671E695344006B6B04 /* main.m in Sources */,
+				BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LH66V26Z7L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiveRoomGiftAnimations/LiveAnimationPrefixHeader.pch";
 				INFOPLIST_FILE = LiveRoomGiftAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = animation.LiveRoomGiftAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +376,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LH66V26Z7L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LiveRoomGiftAnimations/LiveAnimationPrefixHeader.pch";
 				INFOPLIST_FILE = LiveRoomGiftAnimations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = animation.LiveRoomGiftAnimations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +406,7 @@
 				BCC7867B1E695344006B6B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
