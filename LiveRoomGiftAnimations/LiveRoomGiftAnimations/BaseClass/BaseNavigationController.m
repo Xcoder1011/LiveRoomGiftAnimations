@@ -22,5 +22,16 @@
     return nav;
 }
 
+- (void)viewDidLoad {
+    
+    [super viewDidLoad];
+}
+
+
+- (UIViewController *)childViewControllerForStatusBarStyle{
+    
+    return self.topViewController;
+}
+
 
 @end

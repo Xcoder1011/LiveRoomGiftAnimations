@@ -35,6 +35,10 @@
 
 #import <UIKit/UIKit.h>
 #import "HexColors.h"
+#import "UIView+Frame.h"
+#import "UITableView+CustomTableViewCell.h"
+
+
 #endif
 
 

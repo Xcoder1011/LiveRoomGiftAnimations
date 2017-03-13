@@ -14,14 +14,41 @@
 
 @implementation BaseFullContentViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (void)setup {
+    
+    [super setup];
+    
+    [self setupBackgroundView];
+    [self setupContentView];
+    [self setupTitleView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)removeTitleView {
+
+    if (self.titleView) {
+        [self.titleView removeFromSuperview];
+    }
+}
+
+- (void)setupTitleView {
+    
+    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, 64)];
+    self.titleView = titleView;
+    [self.view addSubview:titleView];
+}
+
+- (void)setupContentView {
+    
+    UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, self.width, self.height - 64)];
+    self.contentView = contentView;
+    [self.view addSubview:contentView];
+}
+
+- (void)setupBackgroundView {
+    
+    UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.height)];
+    self.backgroundView = backgroundView;
+    [self.view addSubview:backgroundView];
 }
 
 

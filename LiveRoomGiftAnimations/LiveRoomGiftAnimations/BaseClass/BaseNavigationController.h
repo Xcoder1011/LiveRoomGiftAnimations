@@ -10,7 +10,6 @@
 
 @interface BaseNavigationController : UINavigationController
 
-
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController navigationBarHidden:(BOOL)hidden;
 
 @end

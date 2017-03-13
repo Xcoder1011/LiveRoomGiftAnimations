@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCA518281E72A8C600F11E9E /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518271E72A8C600F11E9E /* HexColors.m */; };
+		BCA5182D1E72A8EE00F11E9E /* CellAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA5182A1E72A8EE00F11E9E /* CellAdapter.m */; };
+		BCA518371E72B6A600F11E9E /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518361E72B6A600F11E9E /* CustomTableViewCell.m */; };
+		BCA5183A1E72B6D900F11E9E /* MainListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518391E72B6D900F11E9E /* MainListCell.m */; };
+		BCA5183E1E72B9D600F11E9E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */; };
+		BCA518411E72BC3300F11E9E /* UITableView+CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */; };
 		BCC786671E695344006B6B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786661E695344006B6B04 /* main.m */; };
 		BCC7866A1E695344006B6B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786691E695344006B6B04 /* AppDelegate.m */; };
 		BCC786701E695344006B6B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7866E1E695344006B6B04 /* Main.storyboard */; };
@@ -16,13 +22,27 @@
 		BCC9A3DA1E70F4F800A2A81B /* MainListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3D91E70F4F800A2A81B /* MainListViewController.m */; };
 		BCC9A3DD1E7137EF00A2A81B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */; };
 		BCC9A3E11E714D9800A2A81B /* CustomNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */; };
-		BCC9A3E71E71667C00A2A81B /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3E61E71667C00A2A81B /* HexColors.m */; };
 		BCC9A3EA1E71695A00A2A81B /* huakangshaonv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */; };
 		BCD89C591E701AC100B2AD9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD89C581E701AC100B2AD9B /* BaseViewController.m */; };
 		BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD89C5B1E701AE200B2AD9B /* BaseContentViewController.m */; };
+		BCF55EFC1E72498F00B051AC /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF55EFB1E72498F00B051AC /* Item.m */; };
+		BCF55F001E7275C000B051AC /* CustomFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF55EFF1E7275C000B051AC /* CustomFullViewController.m */; };
+		BCF55F031E72764700B051AC /* FireworksAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF55F021E72764700B051AC /* FireworksAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCA518261E72A8C600F11E9E /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		BCA518271E72A8C600F11E9E /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		BCA518291E72A8EE00F11E9E /* CellAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAdapter.h; sourceTree = "<group>"; };
+		BCA5182A1E72A8EE00F11E9E /* CellAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellAdapter.m; sourceTree = "<group>"; };
+		BCA518351E72B6A600F11E9E /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		BCA518361E72B6A600F11E9E /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		BCA518381E72B6D900F11E9E /* MainListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainListCell.h; sourceTree = "<group>"; };
+		BCA518391E72B6D900F11E9E /* MainListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainListCell.m; sourceTree = "<group>"; };
+		BCA5183C1E72B9D600F11E9E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		BCA5183F1E72BC3300F11E9E /* UITableView+CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CustomTableViewCell.h"; sourceTree = "<group>"; };
+		BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CustomTableViewCell.m"; sourceTree = "<group>"; };
 		BCC786621E695344006B6B04 /* LiveRoomGiftAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveRoomGiftAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC786661E695344006B6B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCC786681E695344006B6B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,14 +59,18 @@
 		BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		BCC9A3DF1E714D9800A2A81B /* CustomNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNormalViewController.h; sourceTree = "<group>"; };
 		BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNormalViewController.m; sourceTree = "<group>"; };
-		BCC9A3E51E71667C00A2A81B /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
-		BCC9A3E61E71667C00A2A81B /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		BCC9A3E81E7166C100A2A81B /* LiveAnimationPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAnimationPrefixHeader.pch; sourceTree = "<group>"; };
 		BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = huakangshaonv.ttf; sourceTree = "<group>"; };
 		BCD89C571E701AC100B2AD9B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BCD89C581E701AC100B2AD9B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BCD89C5A1E701AE200B2AD9B /* BaseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseContentViewController.h; sourceTree = "<group>"; };
 		BCD89C5B1E701AE200B2AD9B /* BaseContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseContentViewController.m; sourceTree = "<group>"; };
+		BCF55EFA1E72498F00B051AC /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		BCF55EFB1E72498F00B051AC /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		BCF55EFE1E7275C000B051AC /* CustomFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFullViewController.h; sourceTree = "<group>"; };
+		BCF55EFF1E7275C000B051AC /* CustomFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFullViewController.m; sourceTree = "<group>"; };
+		BCF55F011E72764700B051AC /* FireworksAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksAnimationController.h; sourceTree = "<group>"; };
+		BCF55F021E72764700B051AC /* FireworksAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCA518241E72A8A700F11E9E /* CustomAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				BCA518291E72A8EE00F11E9E /* CellAdapter.h */,
+				BCA5182A1E72A8EE00F11E9E /* CellAdapter.m */,
+				BCA518351E72B6A600F11E9E /* CustomTableViewCell.h */,
+				BCA518361E72B6A600F11E9E /* CustomTableViewCell.m */,
+				BCA5183F1E72BC3300F11E9E /* UITableView+CustomTableViewCell.h */,
+				BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */,
+			);
+			path = CustomAdapter;
+			sourceTree = "<group>";
+		};
+		BCA518251E72A8C600F11E9E /* HexColor */ = {
+			isa = PBXGroup;
+			children = (
+				BCA518261E72A8C600F11E9E /* HexColors.h */,
+				BCA518271E72A8C600F11E9E /* HexColors.m */,
+			);
+			path = HexColor;
+			sourceTree = "<group>";
+		};
+		BCA5183B1E72B9D600F11E9E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BCA5183C1E72B9D600F11E9E /* UIView+Frame.h */,
+				BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		BCC786591E695344006B6B04 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +165,8 @@
 			children = (
 				BCC9A3DF1E714D9800A2A81B /* CustomNormalViewController.h */,
 				BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */,
+				BCF55EFE1E7275C000B051AC /* CustomFullViewController.h */,
+				BCF55EFF1E7275C000B051AC /* CustomFullViewController.m */,
 			);
 			path = CustomBaseClass;
 			sourceTree = "<group>";
@@ -117,18 +174,11 @@
 		BCC9A3E21E7165EF00A2A81B /* UI-Component */ = {
 			isa = PBXGroup;
 			children = (
-				BCC9A3E41E71666100A2A81B /* HexColor */,
+				BCA5183B1E72B9D600F11E9E /* Category */,
+				BCA518241E72A8A700F11E9E /* CustomAdapter */,
+				BCA518251E72A8C600F11E9E /* HexColor */,
 			);
 			path = "UI-Component";
-			sourceTree = "<group>";
-		};
-		BCC9A3E41E71666100A2A81B /* HexColor */ = {
-			isa = PBXGroup;
-			children = (
-				BCC9A3E51E71667C00A2A81B /* HexColors.h */,
-				BCC9A3E61E71667C00A2A81B /* HexColors.m */,
-			);
-			name = HexColor;
 			sourceTree = "<group>";
 		};
 		BCD89C511E70176E00B2AD9B /* BaseClass */ = {
@@ -149,6 +199,7 @@
 		BCD89C521E70176E00B2AD9B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BCF55EFD1E7272CE00B051AC /* FireworksAnimationController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -158,8 +209,21 @@
 			children = (
 				BCC9A3D81E70F4F800A2A81B /* MainListViewController.h */,
 				BCC9A3D91E70F4F800A2A81B /* MainListViewController.m */,
+				BCF55EFA1E72498F00B051AC /* Item.h */,
+				BCF55EFB1E72498F00B051AC /* Item.m */,
+				BCA518381E72B6D900F11E9E /* MainListCell.h */,
+				BCA518391E72B6D900F11E9E /* MainListCell.m */,
 			);
 			path = MainController;
+			sourceTree = "<group>";
+		};
+		BCF55EFD1E7272CE00B051AC /* FireworksAnimationController */ = {
+			isa = PBXGroup;
+			children = (
+				BCF55F011E72764700B051AC /* FireworksAnimationController.h */,
+				BCF55F021E72764700B051AC /* FireworksAnimationController.m */,
+			);
+			path = FireworksAnimationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,13 +299,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF55EFC1E72498F00B051AC /* Item.m in Sources */,
+				BCA518281E72A8C600F11E9E /* HexColors.m in Sources */,
 				BCC9A3D71E70EF5700A2A81B /* BaseFullContentViewController.m in Sources */,
 				BCC9A3DD1E7137EF00A2A81B /* BaseNavigationController.m in Sources */,
 				BCC9A3E11E714D9800A2A81B /* CustomNormalViewController.m in Sources */,
-				BCC9A3E71E71667C00A2A81B /* HexColors.m in Sources */,
 				BCC9A3DA1E70F4F800A2A81B /* MainListViewController.m in Sources */,
+				BCA5183A1E72B6D900F11E9E /* MainListCell.m in Sources */,
 				BCC7866A1E695344006B6B04 /* AppDelegate.m in Sources */,
+				BCA5183E1E72B9D600F11E9E /* UIView+Frame.m in Sources */,
 				BCD89C591E701AC100B2AD9B /* BaseViewController.m in Sources */,
+				BCA518411E72BC3300F11E9E /* UITableView+CustomTableViewCell.m in Sources */,
+				BCA518371E72B6A600F11E9E /* CustomTableViewCell.m in Sources */,
+				BCA5182D1E72A8EE00F11E9E /* CellAdapter.m in Sources */,
+				BCF55F001E7275C000B051AC /* CustomFullViewController.m in Sources */,
+				BCF55F031E72764700B051AC /* FireworksAnimationController.m in Sources */,
 				BCC786671E695344006B6B04 /* main.m in Sources */,
 				BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */,
 			);
