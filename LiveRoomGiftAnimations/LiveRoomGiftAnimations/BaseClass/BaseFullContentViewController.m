@@ -39,7 +39,7 @@
 
 - (void)setupContentView {
     
-    UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 64, self.width, self.height - 64)];
+    UIView *contentView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.height)];
     self.contentView = contentView;
     [self.view addSubview:contentView];
 }

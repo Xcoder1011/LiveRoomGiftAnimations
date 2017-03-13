@@ -15,4 +15,12 @@
 @implementation FireworksAnimationController
 
 
+- (void)setup {
+    
+    [super setup];
+    
+    self.enalbleFullScreenInteractivePopGestureRecognizer = YES;
+    
+}
+
 @end

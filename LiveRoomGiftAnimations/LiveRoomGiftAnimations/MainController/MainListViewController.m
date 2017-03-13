@@ -12,7 +12,6 @@
 
 #import "FireworksAnimationController.h"
 
-
 @interface MainListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic , strong) UITableView *tableview;
@@ -20,6 +19,7 @@
 @property (nonatomic , strong) NSMutableArray *adapterArray;
 
 @property (nonatomic ) BOOL tableViewShouldLoad;
+
 @end
 
 @implementation MainListViewController
@@ -30,6 +30,7 @@
     self.title = @"Live Animation";
     
     [super setup];
+    
     
     [self loadDataSource];
     
@@ -95,7 +96,7 @@
     return _tableview;
 }
 
-#pragma mark - UITableViewDataSource
+#pragma mark - UITableViewDataSource & UITableViewDelegate
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 
@@ -105,6 +106,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
     return self.tableViewShouldLoad ? self.adapterArray.count : 0;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    [(CustomTableViewCell *)[tableView cellForRowAtIndexPath:indexPath] clickEvent];
 }
 
 @end

@@ -20,11 +20,19 @@
  */
 @property (nonatomic , assign) CGFloat  height;
 
-
 /**
  *  Base config.
  */
 - (void)setup;
 
+@end
+
+
+@interface UIViewController (InteractivePopGestureRecognizer)
+
+/**
+ *  enable full screen PopGestureRecognizer
+ */
+@property (nonatomic, assign) BOOL enalbleFullScreenInteractivePopGestureRecognizer;
 
 @end

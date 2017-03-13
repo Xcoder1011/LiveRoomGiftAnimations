@@ -24,7 +24,6 @@
     
     self.accessoryType  = UITableViewCellAccessoryDisclosureIndicator;
     self.selectionStyle = UITableViewCellSelectionStyleNone;
-
 }
 
 - (void)setupSubviews {
@@ -49,7 +48,6 @@
         _subtitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(30, 40, self.width - 60, 15)];
         _subtitleLabel.font  = [UIFont fontWithName:@"Heiti SC" size:12.f];
         _subtitleLabel.textColor = [UIColor grayColor];
-
     }
     return _subtitleLabel;
 }
@@ -70,6 +68,16 @@
     }
 }
 
+
+- (void)clickEvent {
+    
+    if (self.cellAdapter.data) {
+        Item *item = self.cellAdapter.data;
+        UIViewController *controller = [[item.object class] new];
+        controller.title             = item.name;
+        [self.controller.navigationController pushViewController:controller animated:YES];
+    }
+}
 
 
 @end

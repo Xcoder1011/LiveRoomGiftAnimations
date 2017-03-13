@@ -7,8 +7,9 @@
 //
 
 #import "BaseViewController.h"
+#import <objc/runtime.h>
 
-@interface BaseViewController ()
+@interface BaseViewController () <UIGestureRecognizerDelegate>
 
 @end
 
@@ -23,11 +24,29 @@
 
 - (void)setup {
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
     self.width = [[UIScreen mainScreen] bounds].size.width;
     self.height = [[UIScreen mainScreen] bounds].size.height;
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    // enable full screen  PopGestureRecognizer
+    self.enalbleFullScreenInteractivePopGestureRecognizer = YES;
 }
 
+@end
 
+
+
+@implementation UIViewController (InteractivePopGestureRecognizer)
+
+- (void)setEnalbleFullScreenInteractivePopGestureRecognizer:(BOOL)enalbleFullScreenInteractivePopGestureRecognizer {
+    
+    objc_setAssociatedObject(self, @selector(enalbleFullScreenInteractivePopGestureRecognizer), @(enalbleFullScreenInteractivePopGestureRecognizer), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (BOOL)enalbleFullScreenInteractivePopGestureRecognizer {
+    
+    return [objc_getAssociatedObject(self, _cmd) boolValue];
+}
 
 @end

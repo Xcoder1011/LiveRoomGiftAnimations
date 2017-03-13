@@ -7,6 +7,7 @@
 //
 
 #import "BaseNavigationController.h"
+#import "BaseViewController.h"
 
 @interface BaseNavigationController () <UIGestureRecognizerDelegate>
 
@@ -25,13 +26,55 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
+    // Gets the target object that comes with the sliding gesture
+    id target = self.interactivePopGestureRecognizer.delegate;
+    
+    // To create a full-screen slide gestures, sliding gesture to the target system at call the action method
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
+    
+    // Set up the gestures agent, intercept gestures trigger
+    pan.delegate = self;
+    
+    [self.view addGestureRecognizer:pan];
+    
+    // To ban the use of system with sliding gesture
+    self.interactivePopGestureRecognizer.enabled = NO;
 }
 
+
+/**
+ *  Intercept gestures trigger
+ */
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (self.childViewControllers.count <= 1) {
+        return NO;
+    }
+    
+    UIViewController *topViewController = self.topViewController;
+    if (!topViewController.enalbleFullScreenInteractivePopGestureRecognizer) {
+        return NO;
+    }
+    
+    // Ignore pan gesture when the navigation controller is currently in transition.
+    if ([[self.navigationController valueForKey:@"_isTransitioning"] boolValue]) {
+        return NO;
+    }
+    
+    CGPoint translation = [(UIPanGestureRecognizer *)gestureRecognizer translationInView:gestureRecognizer.view];
+    if (translation.x <= 0) {
+        return NO;
+    }
+    
+    return YES;
+}
 
 - (UIViewController *)childViewControllerForStatusBarStyle{
     
     return self.topViewController;
 }
 
-
 @end
+
+

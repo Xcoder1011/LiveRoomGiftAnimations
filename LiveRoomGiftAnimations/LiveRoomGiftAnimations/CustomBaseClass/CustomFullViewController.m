@@ -25,7 +25,7 @@
     UILabel *titleLabel      = [UILabel new];
     titleLabel.font          = [UIFont fontWithName:@"DFPShaoNvW5-GB" size:20.f];
     titleLabel.textAlignment = NSTextAlignmentCenter;
-    titleLabel.textColor     = [UIColor whiteColor];
+    titleLabel.textColor     = [UIColor blackColor];
     titleLabel.text          =  self.title;
     [titleLabel sizeToFit];
     titleLabel.center = CGPointMake(self.titleView.frame.size.width / 2.0, self.titleView.frame.size.height / 2.0 + 10);
@@ -38,10 +38,13 @@
     
     // Back btn
     UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    backBtn.frame = CGRectMake(0, 0, 60, 40);
     [backBtn setImage:[UIImage imageNamed:@"back_btn_"] forState:UIControlStateNormal];
     [backBtn setCenter:CGPointMake(20, self.titleView.frame.size.height/2.0 + 10)];
     [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [self.titleView addSubview:backBtn];
+    
+    self.titleView.backgroundColor = [UIColor whiteColor];
 
 }
 
