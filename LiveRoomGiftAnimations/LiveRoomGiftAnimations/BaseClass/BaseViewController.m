@@ -31,6 +31,10 @@
     
     // enable full screen  PopGestureRecognizer
     self.enalbleFullScreenInteractivePopGestureRecognizer = YES;
+
+}
+
+- (void)dealloc {
 }
 
 @end
@@ -46,6 +50,16 @@
 
 - (BOOL)enalbleFullScreenInteractivePopGestureRecognizer {
     
+    return [objc_getAssociatedObject(self, _cmd) boolValue];
+}
+
+- (void)setShouldShowPopBackBtn:(BOOL)shouldShowPopBackBtn {
+
+    objc_setAssociatedObject(self, @selector(shouldShowPopBackBtn), @(shouldShowPopBackBtn), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (BOOL)shouldShowPopBackBtn {
+
     return [objc_getAssociatedObject(self, _cmd) boolValue];
 }
 

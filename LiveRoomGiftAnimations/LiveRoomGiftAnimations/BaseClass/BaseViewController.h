@@ -20,6 +20,7 @@
  */
 @property (nonatomic , assign) CGFloat  height;
 
+
 /**
  *  Base config.
  */
@@ -34,5 +35,10 @@
  *  enable full screen PopGestureRecognizer
  */
 @property (nonatomic, assign) BOOL enalbleFullScreenInteractivePopGestureRecognizer;
+
+/**
+ *  nav.childViewControllers.count > 1, shouldShowPopBackBtn = YES
+ */
+@property (nonatomic, assign) BOOL shouldShowPopBackBtn;
 
 @end

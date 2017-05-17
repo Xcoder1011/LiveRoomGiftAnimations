@@ -43,6 +43,17 @@
 }
 
 
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    
+    if (self.childViewControllers.count >= 1) {
+        viewController.shouldShowPopBackBtn = YES;
+        viewController.hidesBottomBarWhenPushed = YES; // 隐藏底部的工具条
+    }
+    [super pushViewController:viewController animated:animated];
+}
+
+
 /**
  *  Intercept gestures trigger
  */

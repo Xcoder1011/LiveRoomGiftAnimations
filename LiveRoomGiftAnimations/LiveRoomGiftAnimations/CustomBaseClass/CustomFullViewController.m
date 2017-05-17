@@ -34,15 +34,17 @@
     // Bottom line
     UIView *line         = [[UIView alloc] initWithFrame:CGRectMake(0, 63.5, self.titleView.frame.size.width, 0.5f)];
     line.backgroundColor = [[UIColor grayColor] colorWithAlphaComponent:0.25f];
-    [self.titleView addSubview:line];
+    // [self.titleView addSubview:line];
     
     // Back btn
-    UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    backBtn.frame = CGRectMake(0, 0, 60, 40);
-    [backBtn setImage:[UIImage imageNamed:@"back_btn_"] forState:UIControlStateNormal];
-    [backBtn setCenter:CGPointMake(20, self.titleView.frame.size.height/2.0 + 10)];
-    [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
-    [self.titleView addSubview:backBtn];
+    if (self.shouldShowPopBackBtn) {
+        UIButton *backBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        backBtn.frame = CGRectMake(0, 0, 60, 40);
+        [backBtn setImage:[UIImage imageNamed:@"back_btn_"] forState:UIControlStateNormal];
+        [backBtn setCenter:CGPointMake(20, self.titleView.frame.size.height/2.0 + 10)];
+        [backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
+        [self.titleView addSubview:backBtn];
+    }
     
     self.titleView.backgroundColor = [UIColor whiteColor];
 

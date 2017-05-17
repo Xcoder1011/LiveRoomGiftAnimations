@@ -13,6 +13,8 @@
 		BCA5183A1E72B6D900F11E9E /* MainListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518391E72B6D900F11E9E /* MainListCell.m */; };
 		BCA5183E1E72B9D600F11E9E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */; };
 		BCA518411E72BC3300F11E9E /* UITableView+CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */; };
+		BCBF10641EB1EBBE0050E92B /* SKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF10631EB1EBBE0050E92B /* SKTimer.m */; };
+		BCBF10671EB1EC850050E92B /* SKEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF10661EB1EC850050E92B /* SKEmitterLayer.m */; };
 		BCC786671E695344006B6B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786661E695344006B6B04 /* main.m */; };
 		BCC7866A1E695344006B6B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786691E695344006B6B04 /* AppDelegate.m */; };
 		BCC786701E695344006B6B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7866E1E695344006B6B04 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		BCC9A3DD1E7137EF00A2A81B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */; };
 		BCC9A3E11E714D9800A2A81B /* CustomNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */; };
 		BCC9A3EA1E71695A00A2A81B /* huakangshaonv.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */; };
+		BCCF9CA91EC2DDBD0063A14A /* ParticleSprayController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCF9CA81EC2DDBD0063A14A /* ParticleSprayController.m */; };
+		BCD10B4B1E9E2AA6006147BF /* ThumbsUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD10B4A1E9E2AA6006147BF /* ThumbsUpViewController.m */; };
 		BCD89C591E701AC100B2AD9B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD89C581E701AC100B2AD9B /* BaseViewController.m */; };
 		BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD89C5B1E701AE200B2AD9B /* BaseContentViewController.m */; };
 		BCF55EFC1E72498F00B051AC /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF55EFB1E72498F00B051AC /* Item.m */; };
@@ -43,6 +47,11 @@
 		BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		BCA5183F1E72BC3300F11E9E /* UITableView+CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CustomTableViewCell.h"; sourceTree = "<group>"; };
 		BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CustomTableViewCell.m"; sourceTree = "<group>"; };
+		BCB4451B1EBC6638005D5C38 /* BaseMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMacro.h; sourceTree = "<group>"; };
+		BCBF10621EB1EBBE0050E92B /* SKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTimer.h; sourceTree = "<group>"; };
+		BCBF10631EB1EBBE0050E92B /* SKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTimer.m; sourceTree = "<group>"; };
+		BCBF10651EB1EC850050E92B /* SKEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKEmitterLayer.h; sourceTree = "<group>"; };
+		BCBF10661EB1EC850050E92B /* SKEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKEmitterLayer.m; sourceTree = "<group>"; };
 		BCC786621E695344006B6B04 /* LiveRoomGiftAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveRoomGiftAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCC786661E695344006B6B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCC786681E695344006B6B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +70,10 @@
 		BCC9A3E01E714D9800A2A81B /* CustomNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNormalViewController.m; sourceTree = "<group>"; };
 		BCC9A3E81E7166C100A2A81B /* LiveAnimationPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAnimationPrefixHeader.pch; sourceTree = "<group>"; };
 		BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = huakangshaonv.ttf; sourceTree = "<group>"; };
+		BCCF9CA71EC2DDBD0063A14A /* ParticleSprayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleSprayController.h; sourceTree = "<group>"; };
+		BCCF9CA81EC2DDBD0063A14A /* ParticleSprayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleSprayController.m; sourceTree = "<group>"; };
+		BCD10B491E9E2AA6006147BF /* ThumbsUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsUpViewController.h; sourceTree = "<group>"; };
+		BCD10B4A1E9E2AA6006147BF /* ThumbsUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsUpViewController.m; sourceTree = "<group>"; };
 		BCD89C571E701AC100B2AD9B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BCD89C581E701AC100B2AD9B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BCD89C5A1E701AE200B2AD9B /* BaseContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseContentViewController.h; sourceTree = "<group>"; };
@@ -84,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC19DCB91EA0C80E004BB172 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1C27331EA772BE005B2B68 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF10621EB1EBBE0050E92B /* SKTimer.h */,
+				BCBF10631EB1EBBE0050E92B /* SKTimer.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		BCA518241E72A8A700F11E9E /* CustomAdapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +144,15 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		BCC5B2441EAF2BA6002E6D1E /* SKEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BCBF10651EB1EC850050E92B /* SKEmitterLayer.h */,
+				BCBF10661EB1EC850050E92B /* SKEmitterLayer.m */,
+			);
+			path = SKEmitterLayer;
+			sourceTree = "<group>";
+		};
 		BCC786591E695344006B6B04 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +178,8 @@
 				BCC9A3DE1E714CB500A2A81B /* CustomBaseClass */,
 				BCD89C511E70176E00B2AD9B /* BaseClass */,
 				BCD89C521E70176E00B2AD9B /* Controllers */,
+				BC19DCB91EA0C80E004BB172 /* Model */,
+				BC1C27331EA772BE005B2B68 /* Tools */,
 				BCC9A3E21E7165EF00A2A81B /* UI-Component */,
 				BCC786651E695344006B6B04 /* Supporting Files */,
 			);
@@ -174,11 +214,30 @@
 		BCC9A3E21E7165EF00A2A81B /* UI-Component */ = {
 			isa = PBXGroup;
 			children = (
+				BCC5B2441EAF2BA6002E6D1E /* SKEmitterLayer */,
 				BCA5183B1E72B9D600F11E9E /* Category */,
 				BCA518241E72A8A700F11E9E /* CustomAdapter */,
 				BCA518251E72A8C600F11E9E /* HexColor */,
 			);
 			path = "UI-Component";
+			sourceTree = "<group>";
+		};
+		BCCF9CA31EC2DD6A0063A14A /* ParticleSprayController */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF9CA71EC2DDBD0063A14A /* ParticleSprayController.h */,
+				BCCF9CA81EC2DDBD0063A14A /* ParticleSprayController.m */,
+			);
+			path = ParticleSprayController;
+			sourceTree = "<group>";
+		};
+		BCD10B481E9E2A69006147BF /* ThumbsUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BCD10B491E9E2AA6006147BF /* ThumbsUpViewController.h */,
+				BCD10B4A1E9E2AA6006147BF /* ThumbsUpViewController.m */,
+			);
+			path = ThumbsUpViewController;
 			sourceTree = "<group>";
 		};
 		BCD89C511E70176E00B2AD9B /* BaseClass */ = {
@@ -192,6 +251,7 @@
 				BCC9A3D61E70EF5700A2A81B /* BaseFullContentViewController.m */,
 				BCC9A3DB1E7137EF00A2A81B /* BaseNavigationController.h */,
 				BCC9A3DC1E7137EF00A2A81B /* BaseNavigationController.m */,
+				BCB4451B1EBC6638005D5C38 /* BaseMacro.h */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -199,6 +259,8 @@
 		BCD89C521E70176E00B2AD9B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BCCF9CA31EC2DD6A0063A14A /* ParticleSprayController */,
+				BCD10B481E9E2A69006147BF /* ThumbsUpViewController */,
 				BCF55EFD1E7272CE00B051AC /* FireworksAnimationController */,
 			);
 			path = Controllers;
@@ -301,6 +363,7 @@
 			files = (
 				BCF55EFC1E72498F00B051AC /* Item.m in Sources */,
 				BCA518281E72A8C600F11E9E /* HexColors.m in Sources */,
+				BCD10B4B1E9E2AA6006147BF /* ThumbsUpViewController.m in Sources */,
 				BCC9A3D71E70EF5700A2A81B /* BaseFullContentViewController.m in Sources */,
 				BCC9A3DD1E7137EF00A2A81B /* BaseNavigationController.m in Sources */,
 				BCC9A3E11E714D9800A2A81B /* CustomNormalViewController.m in Sources */,
@@ -310,9 +373,12 @@
 				BCA5183E1E72B9D600F11E9E /* UIView+Frame.m in Sources */,
 				BCD89C591E701AC100B2AD9B /* BaseViewController.m in Sources */,
 				BCA518411E72BC3300F11E9E /* UITableView+CustomTableViewCell.m in Sources */,
+				BCBF10671EB1EC850050E92B /* SKEmitterLayer.m in Sources */,
+				BCBF10641EB1EBBE0050E92B /* SKTimer.m in Sources */,
 				BCA518371E72B6A600F11E9E /* CustomTableViewCell.m in Sources */,
 				BCA5182D1E72A8EE00F11E9E /* CellAdapter.m in Sources */,
 				BCF55F001E7275C000B051AC /* CustomFullViewController.m in Sources */,
+				BCCF9CA91EC2DDBD0063A14A /* ParticleSprayController.m in Sources */,
 				BCF55F031E72764700B051AC /* FireworksAnimationController.m in Sources */,
 				BCC786671E695344006B6B04 /* main.m in Sources */,
 				BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */,

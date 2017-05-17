@@ -18,27 +18,11 @@
 #import <UIKit/UIKit.h>
 #endif
 
-
-#ifdef DEBUG
-#    define NSLog(...) NSLog(__VA_ARGS__)
-#else
-#    define NSLog(...) {}
-#endif
-
-#ifdef DEBUG
-#   define DDLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
-#else
-#   define DDLog(...) do { } while (0)
-#endif
-
 #ifdef __OBJC__
-
-#import <UIKit/UIKit.h>
 #import "HexColors.h"
 #import "UIView+Frame.h"
 #import "UITableView+CustomTableViewCell.h"
-
-
+#import "BaseMacro.h"
 #endif
 
 
