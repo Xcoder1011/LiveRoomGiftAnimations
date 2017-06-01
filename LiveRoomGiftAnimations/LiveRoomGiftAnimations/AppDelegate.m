@@ -25,7 +25,7 @@
     MainListViewController *listController = [[MainListViewController alloc] init];
     BaseNavigationController *rootNav = [[BaseNavigationController alloc] initWithRootViewController:listController navigationBarHidden:YES];
     self.window.rootViewController = rootNav;
-    
+
     [self.window makeKeyWindow];
     
     return YES;
