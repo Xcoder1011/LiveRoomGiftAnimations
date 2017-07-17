@@ -48,6 +48,10 @@
 		BC7099211F1C8EF6002EDB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC7099241F1C8EFE002EDB2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BC7099261F1C8F01002EDB2B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BC7099271F1CAFC9002EDB2B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		BC7099281F1CAFC9002EDB2B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC7099291F1CAFC9002EDB2B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC70992A1F1CAFC9002EDB2B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MyLocallizable.strings; sourceTree = "<group>"; };
 		BCA518261E72A8C600F11E9E /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
 		BCA518271E72A8C600F11E9E /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		BCA518291E72A8EE00F11E9E /* CellAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAdapter.h; sourceTree = "<group>"; };
@@ -387,6 +391,7 @@
 				en,
 				Base,
 				"zh-Hans",
+				fr,
 			);
 			mainGroup = BCC786591E695344006B6B04;
 			productRefGroup = BCC786631E695344006B6B04 /* Products */;
@@ -504,6 +509,7 @@
 				BC7099211F1C8EF6002EDB2B /* Base */,
 				BC7099241F1C8EFE002EDB2B /* en */,
 				BC7099261F1C8F01002EDB2B /* zh-Hans */,
+				BC7099271F1CAFC9002EDB2B /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -513,6 +519,7 @@
 			children = (
 				BCB17D281F1783E500B230A9 /* zh-Hans */,
 				BCB17D291F1784B700B230A9 /* en */,
+				BC7099281F1CAFC9002EDB2B /* fr */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -531,6 +538,7 @@
 			children = (
 				BCB17D381F17885700B230A9 /* zh-Hans */,
 				BCB17D461F189AB500B230A9 /* en */,
+				BC7099291F1CAFC9002EDB2B /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -540,6 +548,7 @@
 			children = (
 				BCB17D431F18943300B230A9 /* en */,
 				BCB17D441F18943300B230A9 /* zh-Hans */,
+				BC70992A1F1CAFC9002EDB2B /* fr */,
 			);
 			name = MyLocallizable.strings;
 			sourceTree = "<group>";

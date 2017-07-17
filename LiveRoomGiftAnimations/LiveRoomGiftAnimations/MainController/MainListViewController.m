@@ -41,13 +41,11 @@
 
     [self insertDataToTableview];
 
+    [self setNavRightItemWith:SKLocalizedString(@"change", @"切换语言")andImage:nil];
+    
 }
 
 - (void)loadDataSource {
-    
-    // NSLocalizedString(key, comment) 本质 NSLocalizedString(@"2. 点赞动画（粒子动画）",nil)
-    // NSlocalizeString 第一个参数是内容,根据第一个参数去对应语言的文件中取对应的字符串，第二个参数将会转化为字符串文件里的注释，可以传nil，也可以传空字符串@""。
-    // @"3. 礼物（汽车）动画"
     
     NSArray * items = @[
                         [Item itemWithName:SKLocalizedString(@"fireworks Animation", nil) object:[[FireworksAnimationController alloc] init]],
@@ -76,6 +74,30 @@
         self.tableViewShouldLoad = YES;
         [self.tableview insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationAutomatic];
     });
+}
+
+- (void)rightItemClick:(id)sender {
+    
+    static NSInteger idex = 0;
+    idex ++;
+    if (idex == 3) {
+        idex = 0;
+    }
+    
+    kWeakObj(self)
+    
+    [kLanguageManager setLanguage:LanguageCodes[idex] completion:^(NSString *currentLanguage) {
+        
+        kStrongObj(self);
+        
+        [self.adapterArray removeAllObjects];
+        
+        [self loadDataSource];
+
+        [self.tableview reloadData];
+        
+        [self setNavRightItemWith:SKLocalizedString(@"change", @"切换语言")andImage:nil];
+    }];
 }
 
 

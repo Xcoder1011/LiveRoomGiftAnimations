@@ -39,9 +39,16 @@
     return self;
 }
 
-- (void)setLanguage:(NSString *)language {
+- (void)setLanguage:(NSString *)language completion:(Completion)completion {
     
     if ([[self currentLanguage] isEqualToString:language]) {
+        return;
+    }
+    
+    NSArray *localeIdentifiers = [NSLocale availableLocaleIdentifiers];
+    NSString *identity = [language stringByReplacingOccurrencesOfString:@"-" withString:@"_"];
+    if (![localeIdentifiers containsObject:identity]) {
+        NSAssert(NO, @"local identify set error!");
         return;
     }
     
@@ -51,8 +58,10 @@
     [[NSUserDefaults standardUserDefaults] setValue:language forKey:kMyLanguage];
     [[NSUserDefaults standardUserDefaults] synchronize];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:kAPPLanguageDidChangedNotificationName object:language];
-
+    if (completion) {
+        completion(language);
+    }
+    
 }
 
 
@@ -79,11 +88,14 @@
 }
 
 - (void)_initManager {
-
+   
     NSString *userLanguage = [[NSUserDefaults standardUserDefaults] valueForKey:kMyLanguage];
     if (userLanguage.length == 0) {
-        //获取系统偏好语言数组
+        
         NSArray *languages = [NSLocale preferredLanguages];
+        for(int i=0;i<languages.count;i++){
+            NSLog(@"preferredLanguages：%@",languages[i]);
+        }
         userLanguage = [languages firstObject];
         
         [[NSUserDefaults standardUserDefaults] setValue:userLanguage forKey:kMyLanguage];

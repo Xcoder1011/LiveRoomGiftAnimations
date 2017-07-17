@@ -36,4 +36,18 @@
  */
 - (void)setupBackgroundView;
 
+
+/**
+ *  设置导航条的leftiterm
+ */
+- (void)setNavLeftItemWith:(NSString *)str andImage:(UIImage *)image;
+
+/**
+ *  设置导航的rightitem
+ */
+- (void)setNavRightItemWith:(NSString *)str andImage:(UIImage *)image;
+
+- (void)rightItemClick:(id)sender;
+
+- (void)leftItemClick:(id)sender;
 @end
