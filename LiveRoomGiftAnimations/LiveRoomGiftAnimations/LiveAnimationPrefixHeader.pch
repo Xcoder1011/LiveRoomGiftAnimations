@@ -23,6 +23,7 @@
 #import "UIView+Frame.h"
 #import "UITableView+CustomTableViewCell.h"
 #import "BaseMacro.h"
+#import "SKLanguageManager.h"
 #endif
 
 

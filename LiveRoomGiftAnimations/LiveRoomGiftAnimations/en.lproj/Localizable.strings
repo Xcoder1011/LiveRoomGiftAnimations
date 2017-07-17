@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LiveRoomGiftAnimations
+
+  Created by KUN on 17/7/13.
+  Copyright © 2017年 animation. All rights reserved.
+*/
+
+"fireworks Animation" = "1. fireworks Animation";
+"thumb Animation" = "2. thumb Animation";
+"car Animation" = "3. car Animation";
+"combo effect Animation" = "4. combo effect Animation";
+"tableview scroll up Animation" = "5. tableview scroll up Animation";
+"barrage effect Animation" = "6. barrage effect Animation";
+"particle injection graphics Animation" = "7. particle injection graphics Animation";

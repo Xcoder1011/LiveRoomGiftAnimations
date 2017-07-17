@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LiveRoomGiftAnimations
+
+  Created by KUN on 17/7/13.
+  Copyright © 2017年 animation. All rights reserved.
+*/
+
+"fireworks Animation" = "1. 烟花动画";
+"thumb Animation" = "2. 点赞动画（粒子动画）";
+"car Animation" = "3. 礼物（汽车）动画";
+"combo effect Animation" = "4. 礼物（送花，连击效果）动画";
+"tableview scroll up Animation" = "5. 评论tableview向上滚动";
+"barrage effect Animation" = "6. 弹幕效果";
+"particle injection graphics Animation" = "7. 粒子喷射绘图";

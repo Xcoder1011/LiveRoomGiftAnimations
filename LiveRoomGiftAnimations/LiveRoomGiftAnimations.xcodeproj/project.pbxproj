@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B86458BD054CF8738B3F444E /* libPods-LiveRoomGiftAnimations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 125C1A0EDA47EF831AE68766 /* libPods-LiveRoomGiftAnimations.a */; };
+		BC7099201F1C8EF6002EDB2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7099221F1C8EF6002EDB2B /* Main.storyboard */; };
 		BCA518281E72A8C600F11E9E /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518271E72A8C600F11E9E /* HexColors.m */; };
 		BCA5182D1E72A8EE00F11E9E /* CellAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA5182A1E72A8EE00F11E9E /* CellAdapter.m */; };
 		BCA518371E72B6A600F11E9E /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518361E72B6A600F11E9E /* CustomTableViewCell.m */; };
 		BCA5183A1E72B6D900F11E9E /* MainListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518391E72B6D900F11E9E /* MainListCell.m */; };
 		BCA5183E1E72B9D600F11E9E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */; };
 		BCA518411E72BC3300F11E9E /* UITableView+CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */; };
+		BCB17D251F17838600B230A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB17D271F17838600B230A9 /* InfoPlist.strings */; };
+		BCB17D2E1F17875800B230A9 /* Faces.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB17D301F17875800B230A9 /* Faces.png */; };
+		BCB17D341F17885100B230A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB17D361F17885100B230A9 /* Localizable.strings */; };
+		BCB17D401F18942E00B230A9 /* MyLocallizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB17D421F18942E00B230A9 /* MyLocallizable.strings */; };
+		BCB17D491F18C25900B230A9 /* SKLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB17D481F18C25900B230A9 /* SKLanguageManager.m */; };
 		BCBF10641EB1EBBE0050E92B /* SKTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF10631EB1EBBE0050E92B /* SKTimer.m */; };
 		BCBF10671EB1EC850050E92B /* SKEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBF10661EB1EC850050E92B /* SKEmitterLayer.m */; };
 		BCC786671E695344006B6B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786661E695344006B6B04 /* main.m */; };
 		BCC7866A1E695344006B6B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC786691E695344006B6B04 /* AppDelegate.m */; };
-		BCC786701E695344006B6B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC7866E1E695344006B6B04 /* Main.storyboard */; };
 		BCC786721E695344006B6B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCC786711E695344006B6B04 /* Assets.xcassets */; };
 		BCC786751E695344006B6B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCC786731E695344006B6B04 /* LaunchScreen.storyboard */; };
 		BCC9A3D71E70EF5700A2A81B /* BaseFullContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC9A3D61E70EF5700A2A81B /* BaseFullContentViewController.m */; };
@@ -40,6 +45,9 @@
 		125C1A0EDA47EF831AE68766 /* libPods-LiveRoomGiftAnimations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveRoomGiftAnimations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E870F3CE78F179C1C3C7CDC /* Pods-LiveRoomGiftAnimations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveRoomGiftAnimations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveRoomGiftAnimations/Pods-LiveRoomGiftAnimations.debug.xcconfig"; sourceTree = "<group>"; };
 		7F89DBAD1580E230CD9B12DD /* Pods-LiveRoomGiftAnimations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveRoomGiftAnimations.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveRoomGiftAnimations/Pods-LiveRoomGiftAnimations.release.xcconfig"; sourceTree = "<group>"; };
+		BC7099211F1C8EF6002EDB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC7099241F1C8EFE002EDB2B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		BC7099261F1C8F01002EDB2B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		BCA518261E72A8C600F11E9E /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
 		BCA518271E72A8C600F11E9E /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
 		BCA518291E72A8EE00F11E9E /* CellAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellAdapter.h; sourceTree = "<group>"; };
@@ -52,6 +60,16 @@
 		BCA5183D1E72B9D600F11E9E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		BCA5183F1E72BC3300F11E9E /* UITableView+CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CustomTableViewCell.h"; sourceTree = "<group>"; };
 		BCA518401E72BC3300F11E9E /* UITableView+CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CustomTableViewCell.m"; sourceTree = "<group>"; };
+		BCB17D281F1783E500B230A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		BCB17D291F1784B700B230A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCB17D2F1F17875800B230A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/Faces.png; sourceTree = "<group>"; };
+		BCB17D311F17877000B230A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/Faces.png"; sourceTree = "<group>"; };
+		BCB17D381F17885700B230A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BCB17D431F18943300B230A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MyLocallizable.strings; sourceTree = "<group>"; };
+		BCB17D441F18943300B230A9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MyLocallizable.strings"; sourceTree = "<group>"; };
+		BCB17D461F189AB500B230A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BCB17D471F18C25900B230A9 /* SKLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLanguageManager.h; sourceTree = "<group>"; };
+		BCB17D481F18C25900B230A9 /* SKLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLanguageManager.m; sourceTree = "<group>"; };
 		BCB4451B1EBC6638005D5C38 /* BaseMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMacro.h; sourceTree = "<group>"; };
 		BCBF10621EB1EBBE0050E92B /* SKTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTimer.h; sourceTree = "<group>"; };
 		BCBF10631EB1EBBE0050E92B /* SKTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTimer.m; sourceTree = "<group>"; };
@@ -61,7 +79,6 @@
 		BCC786661E695344006B6B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCC786681E695344006B6B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCC786691E695344006B6B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BCC7866F1E695344006B6B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCC786711E695344006B6B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCC786741E695344006B6B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCC786761E695344006B6B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -134,6 +151,8 @@
 			children = (
 				BCBF10621EB1EBBE0050E92B /* SKTimer.h */,
 				BCBF10631EB1EBBE0050E92B /* SKTimer.m */,
+				BCB17D471F18C25900B230A9 /* SKLanguageManager.h */,
+				BCB17D481F18C25900B230A9 /* SKLanguageManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -216,12 +235,16 @@
 		BCC786651E695344006B6B04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BCC7866E1E695344006B6B04 /* Main.storyboard */,
 				BCC786711E695344006B6B04 /* Assets.xcassets */,
 				BCC786731E695344006B6B04 /* LaunchScreen.storyboard */,
+				BC7099221F1C8EF6002EDB2B /* Main.storyboard */,
 				BCC786761E695344006B6B04 /* Info.plist */,
+				BCB17D271F17838600B230A9 /* InfoPlist.strings */,
+				BCB17D361F17885100B230A9 /* Localizable.strings */,
+				BCB17D421F18942E00B230A9 /* MyLocallizable.strings */,
 				BCC786661E695344006B6B04 /* main.m */,
 				BCC9A3E81E7166C100A2A81B /* LiveAnimationPrefixHeader.pch */,
+				BCB17D301F17875800B230A9 /* Faces.png */,
 				BCC9A3E91E71695A00A2A81B /* huakangshaonv.ttf */,
 			);
 			name = "Supporting Files";
@@ -363,6 +386,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BCC786591E695344006B6B04;
 			productRefGroup = BCC786631E695344006B6B04 /* Products */;
@@ -381,8 +405,12 @@
 			files = (
 				BCC786751E695344006B6B04 /* LaunchScreen.storyboard in Resources */,
 				BCC786721E695344006B6B04 /* Assets.xcassets in Resources */,
-				BCC786701E695344006B6B04 /* Main.storyboard in Resources */,
+				BCB17D401F18942E00B230A9 /* MyLocallizable.strings in Resources */,
+				BC7099201F1C8EF6002EDB2B /* Main.storyboard in Resources */,
+				BCB17D341F17885100B230A9 /* Localizable.strings in Resources */,
 				BCC9A3EA1E71695A00A2A81B /* huakangshaonv.ttf in Resources */,
+				BCB17D2E1F17875800B230A9 /* Faces.png in Resources */,
+				BCB17D251F17838600B230A9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +490,7 @@
 				BCCF9CA91EC2DDBD0063A14A /* ParticleSprayController.m in Sources */,
 				BCF55F031E72764700B051AC /* FireworksAnimationController.m in Sources */,
 				BCC786671E695344006B6B04 /* main.m in Sources */,
+				BCB17D491F18C25900B230A9 /* SKLanguageManager.m in Sources */,
 				BCD89C5C1E701AE200B2AD9B /* BaseContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,12 +498,50 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BCC7866E1E695344006B6B04 /* Main.storyboard */ = {
+		BC7099221F1C8EF6002EDB2B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BCC7866F1E695344006B6B04 /* Base */,
+				BC7099211F1C8EF6002EDB2B /* Base */,
+				BC7099241F1C8EFE002EDB2B /* en */,
+				BC7099261F1C8F01002EDB2B /* zh-Hans */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB17D271F17838600B230A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB17D281F1783E500B230A9 /* zh-Hans */,
+				BCB17D291F1784B700B230A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCB17D301F17875800B230A9 /* Faces.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB17D2F1F17875800B230A9 /* Base */,
+				BCB17D311F17877000B230A9 /* zh-Hans */,
+			);
+			name = Faces.png;
+			sourceTree = "<group>";
+		};
+		BCB17D361F17885100B230A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB17D381F17885700B230A9 /* zh-Hans */,
+				BCB17D461F189AB500B230A9 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BCB17D421F18942E00B230A9 /* MyLocallizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB17D431F18943300B230A9 /* en */,
+				BCB17D441F18943300B230A9 /* zh-Hans */,
+			);
+			name = MyLocallizable.strings;
 			sourceTree = "<group>";
 		};
 		BCC786731E695344006B6B04 /* LaunchScreen.storyboard */ = {
@@ -492,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -539,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

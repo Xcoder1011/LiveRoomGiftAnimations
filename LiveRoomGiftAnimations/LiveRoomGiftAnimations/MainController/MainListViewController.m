@@ -14,6 +14,7 @@
 #import "ParticleSprayController.h"
 
 
+
 @interface MainListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic , strong) UITableView *tableview;
@@ -44,14 +45,18 @@
 
 - (void)loadDataSource {
     
+    // NSLocalizedString(key, comment) 本质 NSLocalizedString(@"2. 点赞动画（粒子动画）",nil)
+    // NSlocalizeString 第一个参数是内容,根据第一个参数去对应语言的文件中取对应的字符串，第二个参数将会转化为字符串文件里的注释，可以传nil，也可以传空字符串@""。
+    // @"3. 礼物（汽车）动画"
+    
     NSArray * items = @[
-                        [Item itemWithName:@"1. 烟花动画" object:[[FireworksAnimationController alloc] init]],
-                        [Item itemWithName:@"2. 点赞动画（粒子动画）" object:[[ThumbsUpViewController alloc] init]],
-                        [Item itemWithName:@"3. 礼物（汽车）动画" object:[[FireworksAnimationController alloc] init]],
-                        [Item itemWithName:@"4. 礼物（送花，连击效果）动画" object:[[FireworksAnimationController alloc] init]],
-                        [Item itemWithName:@"5. 评论tableview向上滚动" object:[[FireworksAnimationController alloc] init]],
-                        [Item itemWithName:@"6. 弹幕效果" object:[[FireworksAnimationController alloc] init]],
-                        [Item itemWithName:@"7. 粒子喷射绘图" object:[[ParticleSprayController alloc] init]]
+                        [Item itemWithName:SKLocalizedString(@"fireworks Animation", nil) object:[[FireworksAnimationController alloc] init]],
+                        [Item itemWithName:SKLocalizedString(@"thumb Animation", nil) object:[[ThumbsUpViewController alloc] init]],
+                        [Item itemWithName:SKLocalizedString(@"car Animation", nil) object:[[FireworksAnimationController alloc] init]],
+                        [Item itemWithName:SKLocalizedString(@"combo effect Animation", nil) object:[[FireworksAnimationController alloc] init]],
+                        [Item itemWithName:SKLocalizedString(@"tableview scroll up Animation", nil) object:[[FireworksAnimationController alloc] init]],
+                        [Item itemWithName:SKLocalizedString(@"barrage effect Animation", nil) object:[[FireworksAnimationController alloc] init]],
+                        [Item itemWithName:SKLocalizedString(@"particle injection graphics Animation", nil) object:[[ParticleSprayController alloc] init]]
                         ];
     
     for (int i = 0; i < items.count; i ++) {
