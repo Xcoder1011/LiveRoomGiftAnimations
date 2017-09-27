@@ -13,8 +13,6 @@
 #import "ThumbsUpViewController.h"
 #import "ParticleSprayController.h"
 
-
-
 @interface MainListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic , strong) UITableView *tableview;
@@ -118,6 +116,12 @@
         _tableview.delegate = self;
         _tableview.dataSource = self;
         _tableview.rowHeight = 65.f;
+        
+        if (@available (iOS 11.0, *)) {
+            _tableview.estimatedSectionHeaderHeight=0;
+            _tableview.estimatedSectionFooterHeight=0;
+            _tableview.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        }
         _tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _tableview;

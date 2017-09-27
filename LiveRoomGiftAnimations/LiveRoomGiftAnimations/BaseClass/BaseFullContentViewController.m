@@ -32,7 +32,7 @@
 
 - (void)setupTitleView {
     
-    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, 64)];
+    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.titleViewHeight)];
     self.titleView = titleView;
     [self.view addSubview:titleView];
 }

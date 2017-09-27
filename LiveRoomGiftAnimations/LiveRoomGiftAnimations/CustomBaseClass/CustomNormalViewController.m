@@ -34,6 +34,9 @@
     titleLabel.text          =  self.title;
     [titleLabel sizeToFit];
     titleLabel.center = CGPointMake(self.titleView.frame.size.width / 2.0, self.titleView.frame.size.height / 2.0 + 10);
+    if (self.height >= 812) {
+        titleLabel.center = CGPointMake(self.titleView.frame.size.width / 2.0, self.titleView.frame.size.height / 2.0 + 20);
+    }
     [self.titleView addSubview:titleLabel];
     
     // Bottom line

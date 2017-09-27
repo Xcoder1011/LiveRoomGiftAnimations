@@ -27,11 +27,11 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.width = [[UIScreen mainScreen] bounds].size.width;
     self.height = [[UIScreen mainScreen] bounds].size.height;
+    CGFloat height = 64;
+    if (self.height >= 812)  height = 88;  // 适配iPhone X   375 * 812
+    self.titleViewHeight = height;
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    // enable full screen  PopGestureRecognizer
     self.enalbleFullScreenInteractivePopGestureRecognizer = YES;
-
 }
 
 - (void)dealloc {

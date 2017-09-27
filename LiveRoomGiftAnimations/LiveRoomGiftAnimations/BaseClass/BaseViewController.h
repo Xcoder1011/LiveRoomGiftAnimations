@@ -20,6 +20,11 @@
  */
 @property (nonatomic , assign) CGFloat  height;
 
+/**
+ *  Navigation height.
+ */
+@property (nonatomic , assign) CGFloat  titleViewHeight;
+
 
 /**
  *  Base config.
