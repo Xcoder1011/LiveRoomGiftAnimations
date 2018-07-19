@@ -47,7 +47,7 @@
 - (void)setNavLeftItemWith:(NSString *)str andImage:(UIImage *)image {
     
     CGFloat topEdges = 10;
-    if (self.height >= 812) {
+    if (iPhoneX) {
         topEdges = 20;
     }
     if (str == nil)

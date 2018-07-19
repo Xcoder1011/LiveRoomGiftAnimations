@@ -45,6 +45,21 @@
 #endif
 
 
+/**
+ *  UIScreen width.
+ */
+#define  kDeviceWidth   [UIScreen mainScreen].bounds.size.width
+
+/**
+ *  UIScreen height.
+ */
+#define  kDeviceHeight  [UIScreen mainScreen].bounds.size.height
+
+/**
+ *  iPhoneX
+ */
+#define  iPhoneX        (kDeviceWidth == 375.f && kDeviceHeight == 812.f ? YES : NO)
+
 
 static inline bool dispatch_is_main_queue() {
     return pthread_main_np() != 0;
@@ -76,12 +91,6 @@ static inline void dispatch_async_on_globalqueue_then_on_mainqueue(void(^globalb
          globalblock();
          dispatch_async_on_main_queue(mainblock);
      });
-//    dispatch_async_on_global_queue(globalblock);
-//    
-//    dispatch_async_on_global_queue(^{
-//        globalblock();
-//        dispatch_async_on_main_queue(mainblock);
-//    });
 
 }
 

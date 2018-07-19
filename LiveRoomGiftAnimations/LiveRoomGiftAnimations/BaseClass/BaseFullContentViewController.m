@@ -17,7 +17,6 @@
 - (void)setup {
     
     [super setup];
-    
     [self setupBackgroundView];
     [self setupContentView];
     [self setupTitleView];

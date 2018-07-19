@@ -24,25 +24,15 @@
 }
 
 - (void)viewDidLoad {
-    
+
     [super viewDidLoad];
-    
-    // Gets the target object that comes with the sliding gesture
+
     id target = self.interactivePopGestureRecognizer.delegate;
-    
-    // To create a full-screen slide gestures, sliding gesture to the target system at call the action method
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:target action:@selector(handleNavigationTransition:)];
-    
-    // Set up the gestures agent, intercept gestures trigger
     pan.delegate = self;
-    
     [self.view addGestureRecognizer:pan];
-    
-    // To ban the use of system with sliding gesture
     self.interactivePopGestureRecognizer.enabled = NO;
 }
-
-
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     
@@ -55,7 +45,7 @@
 
 
 /**
- *  Intercept gestures trigger
+ *  拦截手势触发
  */
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer
 {
@@ -68,7 +58,7 @@
         return NO;
     }
     
-    // Ignore pan gesture when the navigation controller is currently in transition.
+    // 导航控制器当前处于转换状态时忽略平移手势。
     if ([[self.navigationController valueForKey:@"_isTransitioning"] boolValue]) {
         return NO;
     }
@@ -84,6 +74,15 @@
 - (UIViewController *)childViewControllerForStatusBarStyle{
     
     return self.topViewController;
+}
+
+- (void)dealloc {
+    
+#ifdef DEBUG
+    
+   // printf("######## Did released the %s .\n", NSStringFromClass(self.class).UTF8String);
+    
+#endif
 }
 
 @end
